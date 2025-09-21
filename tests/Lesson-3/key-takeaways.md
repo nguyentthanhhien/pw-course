@@ -13,7 +13,7 @@ git restore --staged .
 ```js
 git reset HEAD~N
 ```
-Reset (N) commit tính từ commit gần nhất
+Reset (N) commit tính từ commit gần nhất <br>
 Commit đầu tiên không thể xóa, chỉ có thể xóa thư mục .git rồi init lại từ đầu
 
 ## Branching
@@ -47,7 +47,7 @@ let/const <ten_object> = {
 // Ex:
 const person = {
     name: "Hien",
-    role: student
+    role: student,
 };
 ```
 Lưu ý: không thể thay thế object bằng object mới nhưng có thể edit/add/delete thuộc tính trong object
@@ -69,12 +69,12 @@ delete student.age; // valid: có thể xóa thuộc tính
 function <nameFunction>() {
     // code
 }
-//Ex:
+// Ex:
 function sayHello() {
     console.log("Hello World!");
 }
 
-sayHello(); // 👉 "Hello World!"
+sayHello(); // in ra "Hello World!"
 ```
 
 ### Hàm push: 
@@ -82,7 +82,7 @@ Chức năng: thêm 1 hoặc nhiều phần tử vào cuối mảng
 ```js
 const arr = [1, 2];
 arr.push(3);
-console.log(arr); // in ra [1, 2, 2]
+console.log(arr); // in ra [1, 2, 3]
 ```
 
 
